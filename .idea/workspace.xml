@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da5dc493-9e7e-49a6-96cb-e57e86882681" name="Default Changelist" comment="" />
+    <list default="true" id="da5dc493-9e7e-49a6-96cb-e57e86882681" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/media_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/media_utils.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PyCommon$media_utils.coverage" NAME="media_utils Coverage Results" MODIFIED="1576142818399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyCommon$media_utils.coverage" NAME="media_utils Coverage Results" MODIFIED="1576220967729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyCommon$file_utils.coverage" NAME="file_utils Coverage Results" MODIFIED="1576142905480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -24,33 +26,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Git file" value="1" />
           <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1157" />
+          <entry key="py" value="1733" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1157" />
+          <entry key="Python" value="1733" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/file_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <marker date="1576142905472" expanded="true" signature="156:158" ph="..." />
                 <marker date="1576142905472" expanded="true" signature="156:175" ph="..." />
@@ -60,15 +64,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/media_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+            <state relative-caret-position="113">
+              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
               <folding>
                 <element signature="e#131#140#0" expanded="true" />
-                <marker date="1576142818391" expanded="true" signature="173:174" ph="..." />
-                <marker date="1576142818391" expanded="true" signature="173:610" ph="..." />
+                <marker date="1576221044504" expanded="true" signature="173:174" ph="..." />
+                <marker date="1576221044504" expanded="true" signature="173:610" ph="..." />
               </folding>
             </state>
           </provider>
@@ -89,8 +93,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/media_utils.py" />
         <option value="$PROJECT_DIR$/file_utils.py" />
+        <option value="$PROJECT_DIR$/media_utils.py" />
       </list>
     </option>
   </component>
@@ -118,6 +122,11 @@
               <item name="PyCommon" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyCommon" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PyCommon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyCommon" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -142,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.file_utils">
+  <component name="RunManager" selected="Python.media_utils">
     <configuration name="file_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyCommon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,8 +202,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.file_utils" />
         <item itemvalue="Python.media_utils" />
+        <item itemvalue="Python.file_utils" />
       </list>
     </recent_temporary>
   </component>
@@ -213,13 +222,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3296355" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -228,7 +238,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3296355" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3296355" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -261,26 +271,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-          <folding>
-            <element signature="e#131#140#0" expanded="true" />
-            <marker date="1576142818391" expanded="true" signature="173:174" ph="..." />
-            <marker date="1576142818391" expanded="true" signature="173:610" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/file_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <marker date="1576142905472" expanded="true" signature="156:158" ph="..." />
             <marker date="1576142905472" expanded="true" signature="156:175" ph="..." />
             <marker date="1576142905472" expanded="true" signature="156:559" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+          <folding>
+            <element signature="e#131#140#0" expanded="true" />
+            <marker date="1576221044504" expanded="true" signature="173:174" ph="..." />
+            <marker date="1576221044504" expanded="true" signature="173:610" ph="..." />
           </folding>
         </state>
       </provider>

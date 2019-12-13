@@ -44,9 +44,31 @@ class Media:
             subprocess.check_call(cmd, shell=True)
         return mp3_file
 
+    @classmethod
+    def down_sample_video(cls, video_file, factor):
+        """
+        video down sampling via CRT
+        :param video_file: input video
+        :param factor: Constant Rate Factor (CRT) between around 18 and 24
+        :return: output video path
+        """
+        res_video = ""
+        if video_file.split('.')[-1] in cls.video_ext:
+            segments = video_file.split(".")
+            segments.insert(-1, "ds")
+            res_video = ".".join(segments)
+            # ffmpeg -i input.mp4 -vcodec libx264 -crf 20 output.mp4
+            cmd = "ffmpeg -v error -y -i '" + video_file + "' -vcodec libx264 -crf " + str(
+                factor) + " '" + res_video + "'"
+            print(cmd)
+            subprocess.check_call(cmd, shell=True)
+
+        return res_video
+
 
 if __name__ == '__main__':
     videos = Media.get_video_files("./test")
     print(videos)
     for video in videos:
         print(Media.extract_audio(video))
+        Media.down_sample_video(video, 18)
